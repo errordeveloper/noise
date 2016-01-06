@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 257.0, 497.0, 63.0, 22.0 ],
+					"style" : "",
+					"text" : "dc-offset~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
@@ -500,9 +513,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 436.0, 70.0, 22.0 ],
+					"patching_rect" : [ 285.0, 436.0, 155.0, 22.0 ],
 					"style" : "",
-					"text" : "sm.ladder~"
+					"text" : "sm.ladder~ @cutoffmode 0"
 				}
 
 			}
@@ -700,9 +713,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 392.0, 70.0, 22.0 ],
+					"patching_rect" : [ 285.0, 392.0, 155.0, 22.0 ],
 					"style" : "",
-					"text" : "sm.ladder~"
+					"text" : "sm.ladder~ @cutoffmode 0"
 				}
 
 			}
@@ -979,7 +992,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
@@ -1114,6 +1127,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1225,6 +1247,12 @@
 				"name" : "sm_ladder.gendsp",
 				"bootpath" : "~/Documents/Max 7/Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dc-offset~.maxpat",
+				"bootpath" : "~/Code/noise/instr",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

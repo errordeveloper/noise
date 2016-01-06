@@ -38,13 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "comment",
+					"id" : "obj-3",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 705.0, 150.0, 20.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 272.0, 724.0, 63.0, 22.0 ],
 					"style" : "",
-					"text" : "needs dc offset remover!!!"
+					"text" : "dc-offset~"
 				}
 
 			}
@@ -948,16 +949,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
@@ -1141,6 +1133,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1613,10 +1623,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "sm.ladder~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/smFilterPack/patchers",
@@ -1639,6 +1645,12 @@
 				"name" : "sm_ladder.gendsp",
 				"bootpath" : "~/Documents/Max 7/Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dc-offset~.maxpat",
+				"bootpath" : "~/Code/noise/instr",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
