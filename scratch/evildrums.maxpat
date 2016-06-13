@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -645.0, 123.0, 1851.0, 979.0 ],
+		"rect" : [ 35.0, 90.0, 1851.0, 979.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -895,11 +895,11 @@
 				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1240.0, 961.5, 37.0, 22.0 ],
+					"patching_rect" : [ 1240.0, 961.5, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "dac~"
+					"text" : "dac~ 8"
 				}
 
 			}
@@ -1692,11 +1692,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 950.0, 37.0, 22.0 ],
+					"patching_rect" : [ 263.0, 950.0, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "dac~"
+					"text" : "dac~ 7"
 				}
 
 			}
@@ -2479,15 +2479,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-56", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2519,15 +2510,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-83", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -2984,15 +2966,15 @@
  ],
 		"parameters" : 		{
 			"obj-84::obj-22" : [ "snare-tune[1]", "tuning", 0 ],
-			"obj-84::obj-17" : [ "snare-level[1]", "level", 0 ],
 			"obj-1::obj-17" : [ "snare-level", "level", 0 ],
-			"obj-84::obj-19" : [ "snare-hicut[1]", "hicut", 0 ],
 			"obj-1::obj-19" : [ "snare-hicut", "hicut", 0 ],
 			"obj-84::obj-21" : [ "snare-snap[1]", "snap", 0 ],
 			"obj-1::obj-20" : [ "snare-decay", "decay", 0 ],
+			"obj-84::obj-19" : [ "snare-hicut[1]", "hicut", 0 ],
 			"obj-1::obj-21" : [ "snare-snap", "snap", 0 ],
 			"obj-1::obj-22" : [ "snare-tune", "tuning", 0 ],
-			"obj-84::obj-20" : [ "snare-decay[1]", "decay", 0 ]
+			"obj-84::obj-20" : [ "snare-decay[1]", "decay", 0 ],
+			"obj-84::obj-17" : [ "snare-level[1]", "level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
