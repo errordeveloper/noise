@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -46,7 +46,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1680.0, 300.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 1674.0, 297.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -61,7 +60,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1680.0, 270.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 1674.0, 267.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -74,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1635.0, 300.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1629.0, 297.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "+~"
 				}
@@ -88,7 +85,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1635.0, 270.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1629.0, 267.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -298,7 +294,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1380.0, 450.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1694.0, 768.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -327,7 +322,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1560.0, 300.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 1595.0, 479.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -342,7 +336,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1560.0, 270.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 1592.0, 446.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -370,20 +363,6 @@
 					"patching_rect" : [ 1515.0, 270.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-37",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1560.0, 165.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -443,7 +422,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1310.0, 885.0, 267.0, 116.0 ],
-					"presentation_rect" : [ 1309.0, 884.0, 0.0, 0.0 ],
 					"varname" : "bp.Graphic ADSR[2]",
 					"viewvisibility" : 1
 				}
@@ -466,7 +444,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1310.0, 750.0, 267.0, 116.0 ],
-					"presentation_rect" : [ 1309.0, 749.0, 0.0, 0.0 ],
 					"varname" : "bp.Graphic ADSR[3]",
 					"viewvisibility" : 1
 				}
@@ -626,7 +603,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1080.0, 885.0, 214.0, 116.0 ],
-					"presentation_rect" : [ 1082.0, 869.0, 0.0, 0.0 ],
 					"varname" : "bp.CV LFO[1]",
 					"viewvisibility" : 1
 				}
@@ -649,7 +625,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 765.0, 885.0, 267.0, 116.0 ],
-					"presentation_rect" : [ 1018.0, 874.0, 0.0, 0.0 ],
 					"varname" : "bp.Graphic ADSR[1]",
 					"viewvisibility" : 1
 				}
@@ -672,7 +647,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 630.0, 885.0, 113.0, 116.0 ],
-					"presentation_rect" : [ 1315.0, 732.0, 0.0, 0.0 ],
 					"varname" : "bp.VCA[1]",
 					"viewvisibility" : 1
 				}
@@ -739,7 +713,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 315.0, 885.0, 295.0, 116.0 ],
-					"presentation_rect" : [ 1211.0, 927.0, 0.0, 0.0 ],
 					"varname" : "bp.Ladder[1]",
 					"viewvisibility" : 1
 				}
@@ -784,7 +757,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 15.0, 885.0, 280.0, 116.0 ],
-					"presentation_rect" : [ 450.0, 902.0, 0.0, 0.0 ],
 					"varname" : "bp.Cloud[1]",
 					"viewvisibility" : 1
 				}
@@ -829,7 +801,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 495.0, 726.0, 232.0 ],
-					"presentation_rect" : [ 157.0, 570.0, 0.0, 0.0 ],
 					"varname" : "bp.Sequencer[2]",
 					"viewvisibility" : 1
 				}
@@ -852,7 +823,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 15.0, 255.0, 726.0, 232.0 ],
-					"presentation_rect" : [ 155.0, 328.0, 0.0, 0.0 ],
 					"varname" : "bp.Sequencer[1]",
 					"viewvisibility" : 1
 				}
@@ -1146,6 +1116,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1245,6 +1224,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1317,6 +1305,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1357,15 +1354,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
 				}
 
 			}
@@ -1820,6 +1808,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1839,122 +1836,122 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-130" : [ "mute", "mute", 0 ],
-			"obj-9::obj-70" : [ "Amt", "CV Amt", 0 ],
-			"obj-22::obj-75" : [ "Shape[1]", "Shape", 0 ],
-			"obj-32::obj-20" : [ "mute[6]", "mute", 0 ],
-			"obj-6::obj-125" : [ "NoteGrid[1]", "NoteGrid", 0 ],
-			"obj-6::obj-89" : [ "Reset[1]", "Reset", 0 ],
-			"obj-22::obj-89" : [ "FreqRate[1]", "Rate", 0 ],
-			"obj-5::obj-24" : [ "Freq", "Freq", 0 ],
-			"obj-5::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-15::obj-23" : [ "CV2[2]", "CV2", 0 ],
-			"obj-7::obj-185" : [ "Sequence[2]", "Sequence", 0 ],
-			"obj-7::obj-157" : [ "Swing enable[2]", "Swing enable", 0 ],
-			"obj-10::obj-20" : [ "Mute[2]", "Mute", 0 ],
-			"obj-31::obj-20" : [ "mute[5]", "mute", 0 ],
-			"obj-16::obj-95" : [ "ResCV[1]", "CV", 0 ],
-			"obj-6::obj-2" : [ "trans_trig[1]", "trans_trig", 0 ],
-			"obj-22::obj-94" : [ "Re-Trigger[1]", "Re-Trigger", 0 ],
-			"obj-2::obj-4" : [ "live.text", "live.text", 0 ],
-			"obj-7::obj-25" : [ "GateTime[2]", "GateTime", 0 ],
-			"obj-10::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-31::obj-106" : [ "DomainCV_Amt[2]", "DomainCV_Amt", 0 ],
-			"obj-6::obj-28" : [ "Sync[1]", "Sync", 0 ],
-			"obj-21::obj-20" : [ "mute[4]", "mute", 0 ],
-			"obj-1::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-15::obj-95" : [ "ResCV", "CV", 0 ],
-			"obj-15::obj-63" : [ "CV3[2]", "CV3", 0 ],
-			"obj-31::obj-129" : [ "Domain[2]", "Domain", 0 ],
-			"obj-32::obj-106" : [ "DomainCV_Amt[3]", "DomainCV_Amt", 0 ],
-			"obj-2::obj-28" : [ "Sync", "Sync", 0 ],
-			"obj-5::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-7::obj-155" : [ "Swing amount[2]", "Swing amount", 0 ],
-			"obj-19::obj-80" : [ "Response", "Response", 0 ],
-			"obj-6::obj-130" : [ "mute[1]", "mute", 0 ],
-			"obj-22::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-5::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
-			"obj-22::obj-81" : [ "Phase-Inversion[1]", "Phase-Inversion", 1 ],
-			"obj-15::obj-20" : [ "Freq[2]", "Freq", 0 ],
-			"obj-19::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-6::obj-120" : [ "Max pulse[2]", "Max pulse", 0 ],
-			"obj-10::obj-51" : [ "Fatness[1]", "Fatness", 0 ],
-			"obj-2::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-6::obj-22" : [ "Pattern[1]", "Pattern", 0 ],
-			"obj-16::obj-28" : [ "Res[1]", "Res", 0 ],
-			"obj-20::obj-33" : [ "Quadrants[1]", "Quadrants", 0 ],
-			"obj-2::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-15::obj-22" : [ "TimeMode[2]", "TimeMode", 1 ],
-			"obj-2::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-7::obj-96" : [ "Pulse[2]", "Pulse", 0 ],
-			"obj-15::obj-54" : [ "CV1", "CV1", 0 ],
-			"obj-10::obj-331" : [ "WaveformCloud[1]", "Waveform", 0 ],
-			"obj-9::obj-75" : [ "Shape", "Shape", 0 ],
-			"obj-9::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
-			"obj-18::obj-20" : [ "mute[3]", "mute", 0 ],
-			"obj-10::obj-129" : [ "CV2[1]", "CV2", 0 ],
-			"obj-6::obj-185" : [ "Sequence[1]", "Sequence", 0 ],
-			"obj-7::obj-95" : [ "Steps[2]", "Steps", 0 ],
-			"obj-6::obj-157" : [ "Swing enable[1]", "Swing enable", 0 ],
-			"obj-9::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-7::obj-4" : [ "live.text[2]", "live.text", 0 ],
-			"obj-22::obj-144" : [ "Phase[1]", "Phase", 0 ],
-			"obj-19::obj-33" : [ "Quadrants", "Quadrants", 0 ],
-			"obj-2::obj-22" : [ "Pattern", "Pattern", 0 ],
-			"obj-6::obj-25" : [ "GateTime[1]", "GateTime", 0 ],
-			"obj-18::obj-129" : [ "Domain", "Domain", 0 ],
-			"obj-21::obj-106" : [ "DomainCV_Amt[1]", "DomainCV_Amt", 0 ],
-			"obj-7::obj-130" : [ "mute[2]", "mute", 0 ],
-			"obj-1::obj-76" : [ "Transport", "Transport", 0 ],
-			"obj-9::obj-89" : [ "FreqRate", "Rate", 0 ],
-			"obj-10::obj-106" : [ "CV3[1]", "CV3", 0 ],
-			"obj-16::obj-55" : [ "power[1]", "power", 0 ],
-			"obj-20::obj-80" : [ "Response[1]", "Response", 0 ],
-			"obj-7::obj-125" : [ "NoteGrid[2]", "NoteGrid", 0 ],
-			"obj-7::obj-89" : [ "Reset[2]", "Reset", 0 ],
-			"obj-21::obj-129" : [ "Domain[1]", "Domain", 0 ],
-			"obj-5::obj-51" : [ "Fatness", "Fatness", 0 ],
-			"obj-6::obj-155" : [ "Swing amount[1]", "Swing amount", 0 ],
-			"obj-9::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-16::obj-23" : [ "CV2[3]", "CV2", 0 ],
-			"obj-32::obj-129" : [ "Domain[3]", "Domain", 0 ],
-			"obj-2::obj-185" : [ "Sequence", "Sequence", 0 ],
-			"obj-20::obj-55" : [ "Bypass[1]", "Bypass", 0 ],
-			"obj-7::obj-2" : [ "trans_trig[2]", "trans_trig", 0 ],
-			"obj-10::obj-24" : [ "Freq[1]", "Freq", 0 ],
-			"obj-15::obj-55" : [ "power", "power", 0 ],
-			"obj-16::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-2::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-16::obj-4" : [ "Offset[3]", "Offset", 0 ],
-			"obj-10::obj-107" : [ "Linear[1]", "Linear", 0 ],
-			"obj-22::obj-74" : [ "SyncRate[1]", "Rate", 0 ],
-			"obj-2::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-7::obj-28" : [ "Sync[2]", "Sync", 0 ],
-			"obj-9::obj-88" : [ "Time Mode", "Time Mode", 1 ],
 			"obj-10::obj-45" : [ "TimeMode[1]", "TimeMode", 1 ],
-			"obj-22::obj-88" : [ "Time Mode[1]", "Time Mode", 1 ],
-			"obj-2::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
-			"obj-6::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
-			"obj-15::obj-28" : [ "Res", "Res", 0 ],
-			"obj-16::obj-22" : [ "TimeMode[3]", "TimeMode", 1 ],
+			"obj-15::obj-22" : [ "TimeMode[2]", "TimeMode", 1 ],
+			"obj-6::obj-155" : [ "Swing amount[1]", "Swing amount", 0 ],
+			"obj-16::obj-23" : [ "CV2[3]", "CV2", 0 ],
+			"obj-6::obj-130" : [ "mute[1]", "mute", 0 ],
 			"obj-16::obj-63" : [ "CV3[3]", "CV3", 0 ],
-			"obj-2::obj-25" : [ "GateTime", "GateTime", 0 ],
-			"obj-5::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-9::obj-74" : [ "SyncRate", "Rate", 0 ],
-			"obj-2::obj-2" : [ "trans_trig", "trans_trig", 0 ],
-			"obj-15::obj-4" : [ "Offset[2]", "Offset", 0 ],
-			"obj-2::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-22::obj-89" : [ "FreqRate[1]", "Rate", 0 ],
+			"obj-5::obj-51" : [ "Fatness", "Fatness", 0 ],
 			"obj-6::obj-95" : [ "Steps[1]", "Steps", 0 ],
-			"obj-22::obj-70" : [ "Amt[1]", "CV Amt", 0 ],
-			"obj-16::obj-20" : [ "Freq[3]", "Freq", 0 ],
+			"obj-22::obj-144" : [ "Phase[1]", "Phase", 0 ],
+			"obj-2::obj-89" : [ "Reset", "Reset", 0 ],
+			"obj-7::obj-130" : [ "mute[2]", "mute", 0 ],
+			"obj-7::obj-155" : [ "Swing amount[2]", "Swing amount", 0 ],
+			"obj-7::obj-95" : [ "Steps[2]", "Steps", 0 ],
+			"obj-9::obj-70" : [ "Amt", "CV Amt", 0 ],
+			"obj-5::obj-24" : [ "Freq", "Freq", 0 ],
+			"obj-19::obj-80" : [ "Response", "Response", 0 ],
 			"obj-5::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-18::obj-129" : [ "Domain", "Domain", 0 ],
+			"obj-10::obj-129" : [ "CV2[1]", "CV2", 0 ],
+			"obj-1::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-2::obj-4" : [ "live.text", "live.text", 0 ],
+			"obj-15::obj-20" : [ "Freq[2]", "Freq", 0 ],
+			"obj-6::obj-185" : [ "Sequence[1]", "Sequence", 0 ],
+			"obj-16::obj-22" : [ "TimeMode[3]", "TimeMode", 1 ],
 			"obj-6::obj-4" : [ "live.text[1]", "live.text", 0 ],
+			"obj-16::obj-28" : [ "Res[1]", "Res", 0 ],
+			"obj-22::obj-94" : [ "Re-Trigger[1]", "Re-Trigger", 0 ],
+			"obj-2::obj-22" : [ "Pattern", "Pattern", 0 ],
+			"obj-5::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
+			"obj-22::obj-88" : [ "Time Mode[1]", "Time Mode", 1 ],
+			"obj-7::obj-28" : [ "Sync[2]", "Sync", 0 ],
+			"obj-2::obj-95" : [ "Steps", "Steps", 0 ],
 			"obj-7::obj-120" : [ "Max pulse[3]", "Max pulse", 0 ],
-			"obj-7::obj-22" : [ "Pattern[2]", "Pattern", 0 ],
-			"obj-5::obj-45" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-9::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-9::obj-89" : [ "FreqRate", "Rate", 0 ],
+			"obj-9::obj-74" : [ "SyncRate", "Rate", 0 ],
+			"obj-2::obj-130" : [ "mute", "mute", 0 ],
+			"obj-10::obj-24" : [ "Freq[1]", "Freq", 0 ],
+			"obj-15::obj-4" : [ "Offset[2]", "Offset", 0 ],
 			"obj-18::obj-106" : [ "DomainCV_Amt", "DomainCV_Amt", 0 ],
-			"obj-5::obj-46" : [ "Offset", "Offset", 0 ]
+			"obj-10::obj-107" : [ "Linear[1]", "Linear", 0 ],
+			"obj-6::obj-120" : [ "Max pulse[2]", "Max pulse", 0 ],
+			"obj-9::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-6::obj-157" : [ "Swing enable[1]", "Swing enable", 0 ],
+			"obj-16::obj-54" : [ "CV1[1]", "CV1", 0 ],
+			"obj-6::obj-25" : [ "GateTime[1]", "GateTime", 0 ],
+			"obj-22::obj-70" : [ "Amt[1]", "CV Amt", 0 ],
+			"obj-7::obj-2" : [ "trans_trig[2]", "trans_trig", 0 ],
+			"obj-20::obj-80" : [ "Response[1]", "Response", 0 ],
+			"obj-32::obj-20" : [ "mute[6]", "mute", 0 ],
+			"obj-7::obj-125" : [ "NoteGrid[2]", "NoteGrid", 0 ],
+			"obj-21::obj-20" : [ "mute[4]", "mute", 0 ],
+			"obj-31::obj-129" : [ "Domain[2]", "Domain", 0 ],
+			"obj-7::obj-185" : [ "Sequence[2]", "Sequence", 0 ],
+			"obj-22::obj-75" : [ "Shape[1]", "Shape", 0 ],
+			"obj-5::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-155" : [ "Swing amount", "Swing amount", 0 ],
+			"obj-5::obj-45" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-15::obj-54" : [ "CV1", "CV1", 0 ],
+			"obj-2::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-10::obj-51" : [ "Fatness[1]", "Fatness", 0 ],
+			"obj-15::obj-28" : [ "Res", "Res", 0 ],
+			"obj-10::obj-20" : [ "Mute[2]", "Mute", 0 ],
+			"obj-15::obj-63" : [ "CV3[2]", "CV3", 0 ],
+			"obj-15::obj-55" : [ "power", "power", 0 ],
+			"obj-2::obj-185" : [ "Sequence", "Sequence", 0 ],
+			"obj-6::obj-28" : [ "Sync[1]", "Sync", 0 ],
+			"obj-6::obj-125" : [ "NoteGrid[1]", "NoteGrid", 0 ],
+			"obj-16::obj-4" : [ "Offset[3]", "Offset", 0 ],
+			"obj-6::obj-2" : [ "trans_trig[1]", "trans_trig", 0 ],
+			"obj-22::obj-74" : [ "SyncRate[1]", "Rate", 0 ],
+			"obj-7::obj-22" : [ "Pattern[2]", "Pattern", 0 ],
+			"obj-20::obj-55" : [ "Bypass[1]", "Bypass", 0 ],
+			"obj-32::obj-129" : [ "Domain[3]", "Domain", 0 ],
+			"obj-7::obj-25" : [ "GateTime[2]", "GateTime", 0 ],
+			"obj-9::obj-75" : [ "Shape", "Shape", 0 ],
+			"obj-21::obj-106" : [ "DomainCV_Amt[1]", "DomainCV_Amt", 0 ],
+			"obj-31::obj-106" : [ "DomainCV_Amt[2]", "DomainCV_Amt", 0 ],
+			"obj-2::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-7::obj-89" : [ "Reset[2]", "Reset", 0 ],
+			"obj-9::obj-144" : [ "Phase", "Phase", 0 ],
+			"obj-22::obj-81" : [ "Phase-Inversion[1]", "Phase-Inversion", 1 ],
+			"obj-2::obj-25" : [ "GateTime", "GateTime", 0 ],
+			"obj-9::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
+			"obj-9::obj-88" : [ "Time Mode", "Time Mode", 1 ],
+			"obj-19::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-2::obj-2" : [ "trans_trig", "trans_trig", 0 ],
+			"obj-5::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-9::obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-10::obj-46" : [ "Offset[1]", "Offset", 0 ],
+			"obj-15::obj-95" : [ "ResCV", "CV", 0 ],
+			"obj-5::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-10::obj-106" : [ "CV3[1]", "CV3", 0 ],
+			"obj-15::obj-23" : [ "CV2[2]", "CV2", 0 ],
+			"obj-6::obj-22" : [ "Pattern[1]", "Pattern", 0 ],
+			"obj-16::obj-95" : [ "ResCV[1]", "CV", 0 ],
+			"obj-6::obj-89" : [ "Reset[1]", "Reset", 0 ],
+			"obj-16::obj-20" : [ "Freq[3]", "Freq", 0 ],
+			"obj-6::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
+			"obj-18::obj-20" : [ "mute[3]", "mute", 0 ],
+			"obj-22::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-7::obj-157" : [ "Swing enable[2]", "Swing enable", 0 ],
+			"obj-20::obj-33" : [ "Quadrants[1]", "Quadrants", 0 ],
+			"obj-32::obj-106" : [ "DomainCV_Amt[3]", "DomainCV_Amt", 0 ],
+			"obj-7::obj-4" : [ "live.text[2]", "live.text", 0 ],
+			"obj-21::obj-129" : [ "Domain[1]", "Domain", 0 ],
+			"obj-31::obj-20" : [ "mute[5]", "mute", 0 ],
+			"obj-7::obj-96" : [ "Pulse[2]", "Pulse", 0 ],
+			"obj-2::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-2::obj-28" : [ "Sync", "Sync", 0 ],
+			"obj-19::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-5::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-2::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-10::obj-331" : [ "WaveformCloud[1]", "Waveform", 0 ],
+			"obj-16::obj-55" : [ "power[1]", "power", 0 ],
+			"obj-1::obj-129" : [ "Tempo", "Tempo", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
